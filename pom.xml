@@ -42,6 +42,16 @@
 						<skipStaging>true</skipStaging>
 					</configuration>
 			</plugin>
+
+			<plugin>
+<groupId> org.apache.maven.plugins </groupId>
+<artifactId> maven-war </artifactId>
+<version> 3.3.2 </version>
+<configuration>
+<webappDirectory> /dir </webappDirectory>
+</configuration>
+</plugin>
+			
 		</plugins>
 	</build>
 </project>
